@@ -1,10 +1,26 @@
 <app-menu></app-menu>
+
 <div class="container">
+
     <nav class="mb-5">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a routerLink="/projetos"> Projetos</a></li>
+            <li class="breadcrumb-item">Projetos</li>
         </ol>
     </nav>
 
-    <p>project-list works!</p>
+    <div class="col-md">
+        <a routerLink="cadastrar-projeto" class="btn btn-success float-right">
+            + Novo Projeto
+        </a>
+    </div>
+
+    <div>
+        <ul>
+            <li *ngFor="let item of items">
+                <a routerLink="{{ item }}">
+                    {{ item }}
+                </a>
+            </li>
+          </ul>
+    </div>
 </div>

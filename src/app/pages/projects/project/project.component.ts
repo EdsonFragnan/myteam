@@ -16,7 +16,6 @@ export class ProjectComponent implements OnInit {
   ngOnInit() {
     this.url = this.router.url.replace('/projetos/', '');
     this.novaFase = this.router.url + '/cadastrar-fase';
-    console.log(this.novaFase);
   }
 
 }

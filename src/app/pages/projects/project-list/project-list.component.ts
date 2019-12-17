@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectListComponent implements OnInit {
 
+  items: Array<any> = [];
   constructor() { }
 
   ngOnInit() {
+    this.items = [65433, 12345, 54321];
   }
 
 }

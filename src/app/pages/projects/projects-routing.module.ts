@@ -10,12 +10,12 @@ import { ProjectFaseComponent } from './project-fase/project-fase.component';
 const routes: Routes = [
   // Lista de Projetos
   { path: '', component: ProjectListComponent },
+  // Cadastrar Projeto
+  { path: 'cadastrar-projeto', component: ProjectFormComponent },
   // Mostrar Projeto
   { path: ':id_projeto', component: ProjectComponent },
   // Editar Projeto
   { path: ':id_projeto/editar', component: ProjectFormComponent },
-  // Cadastrar Projeto
-  { path: 'cadastrar-projeto', component: ProjectFormComponent },
   // Cadastrar Fase do Projeto
   { path: ':id_projeto/cadastrar-fase', component: ProjectFaseFormComponent },
   // Mostrar Fases do Projeto

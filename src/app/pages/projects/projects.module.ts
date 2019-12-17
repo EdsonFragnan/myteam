@@ -11,7 +11,15 @@ import { ProjectFaseListComponent } from './project-fase-list/project-fase-list.
 import { ProjectFaseComponent } from './project-fase/project-fase.component';
 
 @NgModule({
-  declarations: [ProjectListComponent, ProjectFormComponent, MenuComponent, ProjectComponent, ProjectFaseFormComponent, ProjectFaseListComponent, ProjectFaseComponent],
+  declarations: [
+    ProjectListComponent,
+    ProjectFormComponent,
+    MenuComponent,
+    ProjectComponent,
+    ProjectFaseFormComponent,
+    ProjectFaseListComponent,
+    ProjectFaseComponent
+  ],
   imports: [
     CommonModule,
     ProjectsRoutingModule
